@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- // array destrucing all about order, name does not
+let x = [1,2,3,4]
+const [a,b,c,d] = x
+// this does the same thing as above
+// const a = x[0]
+// const b = x[1]
+
+
+// object destrucing, order doesn't matter, name-have to match key 
+let y = {name:'bob', age:22}
+const {age, name} = y
+// this does the same thing as above
+// const age = y.age
+// const name = y.name -->
